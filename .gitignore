@@ -22,3 +22,17 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# --- 新增规则 ---
+# IDE 生成目录
+/.idea/
+/out/
+/.gitee/
+
+# 系统文件
+.DS_Store
+*.iml
+
+# 本地环境配置
+*.env
+*.bak
